@@ -27,7 +27,7 @@ while (continuarCadastro) {
     continuarCadastro = resposta === 'S';
 }
 
-let mediaGeral = totalNotas / totalAlunos;
+
 
 console.log("A média geral dos alunos é: " + mediaGeral.toFixed(2));
 console.log("Quantidade de homens cadastrados: " + totalHomens);
